@@ -1,0 +1,7 @@
+version: '3'
+services:
+  streamlit-app:
+    build: .
+    container_name: experimental-m-lab-sites
+    ports:
+      - 8510:8501
